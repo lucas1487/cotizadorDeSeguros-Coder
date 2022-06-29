@@ -127,7 +127,7 @@ calcularCuota()
 
 function btnDescrip (marcaGuardada,gamaGyardada,gncGuardada,okmGuardada,sumaAseguradaGuardada,planGuardada,cuotaTotal){
    
-fetch("/js/marcasImg.json")
+fetch("js/marcasImg.json")
 .then(response => {
    return response.json();
 })
